@@ -113,7 +113,7 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     color: #fff;
-    background: linear-gradient(315deg, --surpriseTrFirst 0%, --surpriseTrSecond 100%) !important;
+    background: linear-gradient(315deg, var(--surpriseTrFirst) 0%, var(--surpriseTrSecond) 100%) !important;
     background-size: cover;
 }
 
@@ -2233,7 +2233,7 @@ Usage (In Ghost editor):
     padding-top: 20px;
     padding-bottom: 60px;
     color: #fff;
-    background: linear-gradient(315deg, --surpriseTrFirst 0%, --surpriseTrSecond 100%) !important;
+    background: linear-gradient(315deg, var(--surpriseTrFirst) 0%, var(--surpriseTrSecond) 100%) !important;
 }
 
 .site-footer-content {
