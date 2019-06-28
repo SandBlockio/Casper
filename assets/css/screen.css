@@ -118,7 +118,7 @@ body {
 }
 
 .site-header:before {
-    content: "";
+    /*content: "";
     position: absolute;
     top: 0;
     right: 0;
@@ -126,7 +126,7 @@ body {
     left: 0;
     z-index: 10;
     display: block;
-    background: rgba(0,0,0,0.18);
+    background: rgba(0,0,0,0.18);*/
 }
 
 .site-header:after {
@@ -2233,7 +2233,7 @@ Usage (In Ghost editor):
     padding-top: 20px;
     padding-bottom: 60px;
     color: #fff;
-    background: color(var(--surprise) l(-15%));
+    background: color(var(--surprise) l(-5%));
 }
 
 .site-footer-content {
