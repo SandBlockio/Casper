@@ -23,7 +23,11 @@
         {{#if @labs.subscribers}}
             <a class="subscribe-button" href="#subscribe">Subscribe</a>
         {{else}}
-            <a class="subscribe-button social-link" href="https://join.surprise.io/sKx5" target="_blank">Download Surprise App {{> "icons/apple"}} {{> "icons/android"}}</a>
+            <a class="subscribe-button" href="https://join.surprise.io/sKx5" target="_blank">
+                Download Surprise App 
+                <span style="height: 1.2rem" {{> "icons/apple"}}</span>
+                <span style="height: 1.2rem" {{> "icons/android"}}</span>
+            </a>
         {{/if}}
     </div>
 </nav>
