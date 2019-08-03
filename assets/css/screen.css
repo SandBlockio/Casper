@@ -343,10 +343,14 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     opacity: 1;
 }
 
-.subscribe-button svg {
+.subscribe-button .svg {
     height: 1.8rem;
     width: 2rem;
     fill: #ffffff;
+}
+
+.subscribe-button .svg-apple {
+    height: 1.9rem !important;
 }
 
 .rss-button {
