@@ -300,7 +300,7 @@ body {
 
 ::selection {
     text-shadow: none;
-    background: color(var(--surprise) lightness(+30%));
+    background: color(var(--blue) lightness(+30%));
 }
 
 hr {
