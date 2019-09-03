@@ -88,7 +88,7 @@
     <script>
         /* In case it's french, redirect to french section */
         var language = navigator.language || navigator.userLanguage;
-        if(location.pathname === "/" && language === 'fr-FR'){
+        if(document.referrer.includes('blog.surprise.io') === false && language === 'fr-FR'){
             window.location.replace('/tag/fr/');
         }
     </script>
