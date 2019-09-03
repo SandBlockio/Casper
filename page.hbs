@@ -61,7 +61,7 @@ $(function() {
 
     /* In case it's french, redirect to french section */
     var language = navigator.language || navigator.userLanguage;
-    if(language === 'fr-FR'){
+    if(location.pathname === "/" && language === 'fr-FR'){
         window.location.replace('/tag/fr/');
     }
 });
